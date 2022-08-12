@@ -16,7 +16,7 @@ public class ArrayTasks {
     }
 
     /**
-     * Generate an int[] array of consecutive positive integgit ers
+     * Generate an int[] array of consecutive positive integers
      * starting at 1 of the given length (length parameter > 0).
      * <p>
      * Example:
@@ -120,4 +120,7 @@ public class ArrayTasks {
      * arr = [[3, 1, 2,], [3,2]] -> [[2, 3], [1, 2, 3]]
      * arr = [[5, 4], [7]]       -> [[7], [4, 5]]
      */
+    public int[][] sortRaggedArray(int[][] arr) {
+        return null;
+    }
 }
