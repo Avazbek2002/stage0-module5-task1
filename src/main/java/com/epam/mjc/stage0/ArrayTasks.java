@@ -11,12 +11,12 @@ public class ArrayTasks {
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
     public String[] seasonsArray() {
-        String [] a = {"Winter", "Spring", "Summer", "Automn"};
+        String [] a = {"Winter", "Spring", "Summer", "Autumn"};
         return a;
     }
 
     /**
-     * Generate an int[] array of consecutive positive integers
+     * Generate an int[] array of consecutive positive integgit ers
      * starting at 1 of the given length (length parameter > 0).
      * <p>
      * Example:
