@@ -78,7 +78,7 @@ public class ArrayTasks {
     public String[] reverseArray(String[] arr) {
         String[] str = new String[arr.length];
         for (int i = arr.length - 1; i >= 0; i--) {
-            str[arr.length + 1 - i] = arr[i];
+            str[arr.length - 1 - i] = arr[i];
         }
         return str;
     }
@@ -97,7 +97,7 @@ public class ArrayTasks {
     public int[] getOnlyPositiveNumbers(int[] arr) {
         int numberOfPositive = 0, counter = 0;
         for (int i = 0; i < arr.length; i ++) {
-            if (arr[i] < 0) numberOfPositive++;
+            if (arr[i] > 0) numberOfPositive++;
         }
         int [] result = new int [numberOfPositive];
         for (int i = 0; i < numberOfPositive; i++) {
