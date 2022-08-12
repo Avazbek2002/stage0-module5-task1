@@ -99,9 +99,9 @@ public class ArrayTasks {
         for (int i = 0; i < arr.length; i ++) {
             if (arr[i] > 0) numberOfPositive++;
         }
-        int [] result = new int [numberOfPositive+1];
+        int [] result = new int [numberOfPositive];
         for (int i = 0; i < arr.length; i++) {
-            if (result[i] > 0) {
+            if (arr[i] > 0) {
                 result[counter] = arr[i];
                 counter++;
             }
